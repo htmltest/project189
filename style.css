@@ -4,7 +4,7 @@ body {margin:0; padding:0; color:#000}
 .info td {vertical-align:top; padding:0}
 .info td.title {font-size:20px; line-height:30px; font-weight:bold; text-align:center}
 
-.header-table {width:100%; border-collapse:collapse; font-size:15px; line-height:18px; margin:10px 0 50px 0}
+.header-table {width:100%; border-collapse:collapse; font-size:15px; line-height:18px; margin:50px 0 210px 0}
 
 .header-main {vertical-align:top; padding:30px 0 0 0}
 .header-main table {width:100%; border-collapse:collapse}
@@ -12,11 +12,11 @@ body {margin:0; padding:0; color:#000}
 .header-main-title {vertical-align:bottom; width:50%; padding:5px 20px 0 0}
 .header-main-value {vertical-align:bottom; width:50%; border-bottom:1px solid #000; padding:5px 0 0 0}
 
-.header-codes {vertical-align:top; padding:0; width:250px}
+.header-codes {vertical-align:top; padding:0; width:240px}
 .header-codes table {border-collapse:collapse}
 .header-codes-name {vertical-align:bottom; text-align:right; width:100px; border:none; font-size:15px; line-height:18px}
-.header-codes-title {vertical-align:middle; text-align:center; width:150px; font-size:15px; line-height:18px; padding:5px 0; border:1px solid #000}
-.header-codes-value {vertical-align:middle; text-align:center; width:150px; font-size:15px; line-height:18px; padding:5px 0; border:2px solid #000}
+.header-codes-title {vertical-align:middle; text-align:center; width:140px; font-size:15px; line-height:18px; padding:5px 0; border:1px solid #000}
+.header-codes-value {vertical-align:middle; text-align:center; width:140px; font-size:15px; line-height:18px; padding:5px 0; border:2px solid #000}
 .header-codes-value-2 {padding:13px 0}
 .header-codes-value-3 {padding:23px 0}
 
@@ -25,8 +25,8 @@ body {margin:0; padding:0; color:#000}
 .data-table td.data-table-header {text-align:center}
 .data-table td.data-table-col {text-align:center}
 .data-table td.data-table-code-1 {width:60px; text-align:center}
-.data-table td.data-table-code-2 {width:150px; text-align:center}
-.data-table td.data-table-summ {width:150px; text-align:right}
+.data-table td.data-table-code-2 {width:140px; text-align:center}
+.data-table td.data-table-summ {width:140px; text-align:right}
 .data-table td.data-table-title-sub {padding-left:20px}
 .data-table td.data-table-title-sub2 {padding-left:40px}
 
@@ -37,3 +37,7 @@ body {margin:0; padding:0; color:#000}
 .sign-table td {width:25%; vertical-align:bottom; padding:5px 0}
 .sign-table td.sign-name {text-align:center; font-size:18px; line-height:27px}
 .sign-table td.sign-notice {text-align:center; border-top:1px solid #000; padding:0; vertical-align:top}
+
+.notices {font-size:12px; line-height:15px}
+
+.data-table-bold td {font-weight:bold}
