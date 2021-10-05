@@ -26,6 +26,17 @@
 
     $mpdf->SetTitle('Отчет о расходах, источником финансового обеспечения которых является грант');
 
+    $mpdf->SetHTMLFooter('<div class="footer">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="footer-number">3.2021 <span class="footer-number-value">| E324-79E4-E2CA</span></td>
+                        <td class="footer-page">{PAGENO}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>');
+
     $mpdf->WriteHTML($stylesheet,\Mpdf\HTMLParserMode::HEADER_CSS);
     $mpdf->WriteHTML($html,\Mpdf\HTMLParserMode::HTML_BODY);
 

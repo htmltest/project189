@@ -42,8 +42,14 @@ body {margin:0; padding:0; color:#000}
 
 .data-table-bold td {font-weight:bold}
 
-.sign-table-wrap {width:100%; margin:20px 0 200px 0; border-collapse:separate}
+.sign-table-wrap {width:100%; margin:20px 0 100px 0; border-collapse:separate}
 .sign-table-wrap td.sign-table-container {vertical-align:top}
 .sign-table-wrap td.sign-table-mp {vertical-align:middle; text-align:center; width:300px}
 
 .id {color:#999}
+
+.footer {border-top:1px solid #000}
+.footer table {width:100%; border-collapse:collapse; border:none; font-size:12px; line-height:15px}
+.footer-number {text-align:left; vertical-align:middle; padding:5px 0 0 0; color:#000}
+.footer-number-value {color:#bbb}
+.footer-page {text-align:right; vertical-align:middle; padding:5px 0 0 0; color:#000}
